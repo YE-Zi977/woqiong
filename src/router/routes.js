@@ -51,7 +51,7 @@ export const routes = [
   {
     path: '*',
     redirect: {
-      name: 'AddMovie'
+      name: 'Login'
     }
   }
 ]

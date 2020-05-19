@@ -32,7 +32,7 @@ router.beforeEach((to, from, next) => {
   let pathNames = ['AddMovie', 'AddInfo'];
 
   if (pathNames.indexOf(from.name) > -1) {
-    const MessageBox = ElementUI;
+    const { MessageBox } = ElementUI;
 
     MessageBox.confirm('编辑将不保存, 是否继续?', '提示', {
       confirmButtonText: '确定',

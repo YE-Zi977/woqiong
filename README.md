@@ -1,4 +1,7 @@
 # manage
+<<<<<<< HEAD
+无穷影视商家端后台管理系统（PC端）
+=======
 
 ## Project setup
 ```
